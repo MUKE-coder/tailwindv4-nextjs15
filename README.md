@@ -81,21 +81,8 @@ To implement dark mode with Shadcn UI and Tailwind v4:
 
 1. Follow the [official Shadcn UI guide for dark mode](https://ui.shadcn.com/docs/dark-mode)
 2. Remember to use the canary CLI when adding any new components
-3. Update your `tailwind.config.js` to include the dark mode configuration:
 
-```javascript
-// tailwind.config.js
-module.exports = {
-  darkMode: ["class"],
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-```
-
-4. Example implementation in your layout:
+3. Example implementation in your layout:
 
 ```jsx
 // Layout component with theme provider
@@ -194,7 +181,8 @@ pnpm add uploadthing
 
 ```css
 /* global.css */
-@source "uploadthing/tailwind.css";
+@import "uploadthing/tw/v4";
+@source "../node_modules/@uploadthing/react/dist";
 ```
 
 3. Follow the UploadThing documentation for integration specifics.
@@ -215,7 +203,7 @@ pnpm add react-select
 
 ```css
 /* global.css */
-@source "react-select/dist/react-select.css";
+@source "../node_modules/react-tailwindcss-select/dist/index.esm.js";
 ```
 
 ## Breaking Changes in Tailwind v4
