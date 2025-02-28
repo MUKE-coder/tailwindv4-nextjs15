@@ -6,6 +6,9 @@
   <img src="https://nextjs.org/static/blog/next-13/logo.svg" alt="Next.js" width="200" />
   <p><em>The ultimate starter guide for using Tailwind CSS v4 with Next.js 15</em></p>
 </div>
+ [![Next.js + Tailwind CSS v4 Ultimate Guide](https://14j7oh8kso.ufs.sh/f/HLxTbDBCDLwftfAc892iVG7KkMc0Z9LTeyBRuPQlIEYzv36N)](https://youtu.be/1jCLlNU2fAk "Next.js + Tailwind CSS v4 Ultimate Guide: Everything You Need to Know (2025)")
+  
+  <p><strong>📺 Watch the full 2-hour comprehensive video tutorial above</strong></p>
 
 ## Table of Contents
 
