@@ -35,7 +35,7 @@ To create a new Next.js project with Tailwind CSS v4:
 
 ```bash
 # Create a new Next.js project
-npx create-next-app@latest my-project
+pnpm create next-app@ my-project
 cd my-project
 
 # During setup, you'll be prompted to include Tailwind CSS
@@ -45,11 +45,7 @@ cd my-project
 If you're migrating an existing project to Tailwind v4, update your dependencies:
 
 ```bash
-npm install tailwindcss@latest postcss@latest autoprefixer@latest
-# OR with yarn
-yarn add tailwindcss@latest postcss@latest autoprefixer@latest
-# OR with pnpm
-pnpm add tailwindcss@latest postcss@latest autoprefixer@latest
+npx @tailwindcss/upgrade
 ```
 
 ## Shadcn UI Integration
