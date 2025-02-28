@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next js Comes with Tailwind V4
 
-## Getting Started
+## Shadcn
 
-First, run the development server:
+- Shadcn is by default using Tailwind V3
+- To use TV4 with shadcn , remember to use the canary cli
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+pnpm dlx shadcn@canary init
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- To add new shadcn Components , stick to the canary cli
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+pnpm dlx shadcn@canary add button
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### DaRK Mode
 
-## Learn More
+- Simply follow the Shadcn Guide to Implement it
+- Remember always to add new components using the canary cli
 
-To learn more about Next.js, take a look at the following resources:
+## Plugins eg Typography and forms
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Please Install the Plugins from their official packages
+- Include them in global.css using the @plugin
+- eg `@plugin "@tailwind/forms"`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Packages eg Uploadthing and Tailwind Select
 
-## Deploy on Vercel
+- Install the Packages
+- Add the package js files in your global.css using the @source
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Removed Styles and utilities
